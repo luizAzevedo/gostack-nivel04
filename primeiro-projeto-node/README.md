@@ -24,6 +24,7 @@
 - [MD5](http://www.md5.cz/)
 - [multer](https://www.npmjs.com/package/multer)
 - [Cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
+- [Tsyringe](https://github.com/microsoft/tsyringe)
 
 ---
 
@@ -152,6 +153,10 @@ yarn add express-async-errors
 yarn add cors @types/cors.
 
 
-#### Instalando lib para ler o @path no import
+#### Instalando a biblioteca para ler o @path no import
 
 yarn add -D tsconfig-paths
+
+#### Instalando a biblioteca para fazer injeção de dependencia
+
+yarn add tsyringe
