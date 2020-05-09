@@ -181,3 +181,7 @@ The following questions will help Jest to create a suitable configuration for yo
 #### Instalando uma dependencia porque o Jest não entende typescript
 
 yarn add ts-jest -D
+
+
+
+
