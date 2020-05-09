@@ -182,6 +182,3 @@ The following questions will help Jest to create a suitable configuration for yo
 
 yarn add ts-jest -D
 
-
-
-
