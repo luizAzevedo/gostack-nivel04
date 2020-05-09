@@ -160,3 +160,24 @@ yarn add -D tsconfig-paths
 #### Instalando a biblioteca para fazer injeção de dependencia
 
 yarn add tsyringe
+
+#### Instalando a biblioteca para fazer os testes
+
+yarn add jest -D
+
+yarn add -D @types/jest
+
+#### Configurando o Jest
+
+yarn jest --init
+
+The following questions will help Jest to create a suitable configuration for your project
+
+✔ Would you like to use Jest when running "test" script in "package.json"? … yes
+✔ Choose the test environment that will be used for testing › node
+✔ Do you want Jest to add coverage reports? … no
+✔ Automatically clear mock calls and instances between every test? … yes
+
+#### Instalando uma dependencia porque o Jest não entende typescript
+
+yarn add ts-jest -D
