@@ -243,3 +243,8 @@ The following questions will help Jest to create a suitable configuration for yo
 
 yarn add ts-jest -D
 
+#### Instalando a biblioteca nodemailer e o @types
+
+yarn add nodemailer
+
+yarn add -D @types/nodemailer

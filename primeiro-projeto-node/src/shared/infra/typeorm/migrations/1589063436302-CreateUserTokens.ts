@@ -25,7 +25,7 @@ export default class CreateUserTokens1589063436302
             type: 'uuid',
           },
           {
-            name: 'create_at',
+            name: 'created_at',
             type: 'timestamp',
             default: 'now()',
           },
