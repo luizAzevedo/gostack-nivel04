@@ -25,6 +25,7 @@
 - [multer](https://www.npmjs.com/package/multer)
 - [Cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
 - [Tsyringe](https://github.com/microsoft/tsyringe)
+- [Handlebars](https://handlebarsjs.com/)
 
 ---
 
@@ -248,3 +249,7 @@ yarn add ts-jest -D
 yarn add nodemailer
 
 yarn add -D @types/nodemailer
+
+#### Instalando a biblioteca Handlebars
+
+yarn add handlebars
