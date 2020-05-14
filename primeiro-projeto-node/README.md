@@ -229,6 +229,8 @@ yarn add jest -D
 
 yarn add -D @types/jest
 
+yarn jest --clearCache **Limpa o cache, quando está dando erro no teste**
+
 #### Configurando o Jest
 
 yarn jest --init
