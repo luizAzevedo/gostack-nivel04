@@ -19,7 +19,7 @@ container.registerSingleton<IMailTemplateProvider>(
   HandlebarsMailTemplateProvider,
 );
 
-container.registerInstance<IMailProvider>(
-  'MailProvider',
-  container.resolve(EtherealMailProvider),
-);
+// container.registerInstance<IMailProvider>(
+//   'MailProvider',
+//   container.resolve(EtherealMailProvider),
+// );
