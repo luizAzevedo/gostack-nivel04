@@ -269,3 +269,7 @@ yarn add -D @types/mongodb
 yarn add celebrate
 
 yarn add -D @types/hapi__joi
+
+#### Instalando a biblioteca .env
+
+yarn add dotenv
