@@ -6,26 +6,31 @@
 
 ### Ferramentas utilizadas:
 
-- [Express](https://expressjs.com/)
-- [Typescript](https://www.typescriptlang.org/)
+- [Docker](https://www.docker.com/)
+- [DBeaver](https://dbeaver.io/)
 - [Insomnia](https://insomnia.rest/)
-- [Uuidv4](https://www.npmjs.com/package/uuidv4)
+- [MD5](http://www.md5.cz/)
+
+- [PostgreSQL](https://www.postgresql.org/)
+
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+
+- [Express](https://expressjs.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Uuidv4](https://www.npmjs.com/package/uuidv4)
 - [date-fns](https://date-fns.org/)
 - [ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
-- [@types/express](https://www.npmjs.com/package/@types/express)
-- [Docker](https://www.docker.com/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [DBeaver](https://dbeaver.io/)
 - [TypeOrm](https://typeorm.io/)
 - [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-- [MD5](http://www.md5.cz/)
 - [multer](https://www.npmjs.com/package/multer)
 - [Cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
 - [Tsyringe](https://github.com/microsoft/tsyringe)
+- [Nodemailer](https://nodemailer.com/)
 - [Handlebars](https://handlebarsjs.com/)
+- [Ethereal](https://ethereal.email/)
+- [MongoDb](https://www.mongodb.com/)
 
 ---
 
@@ -95,10 +100,6 @@
   - O usuário não pode agendar em um horário já ocupado;
   - O usuário não pode agendar em um horário que já passou;
   - O usuárionão pode agendar serviços consigo mesmo;
-
-
-
-
 
 ---
 
@@ -255,3 +256,9 @@ yarn add -D @types/nodemailer
 #### Instalando a biblioteca Handlebars
 
 yarn add handlebars
+
+#### Instalando a biblioteca mongodb
+
+yarn add mongodb
+
+yarn add -D @types/mongodb
