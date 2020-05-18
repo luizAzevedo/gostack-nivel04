@@ -12,6 +12,7 @@
 - [MD5](http://www.md5.cz/)
 
 - [PostgreSQL](https://www.postgresql.org/)
+- [MongoDb](https://www.mongodb.com/)
 
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
@@ -30,7 +31,7 @@
 - [Nodemailer](https://nodemailer.com/)
 - [Handlebars](https://handlebarsjs.com/)
 - [Ethereal](https://ethereal.email/)
-- [MongoDb](https://www.mongodb.com/)
+- [Celebrate](https://www.npmjs.com/package/celebrate/)
 
 ---
 
@@ -262,3 +263,9 @@ yarn add handlebars
 yarn add mongodb
 
 yarn add -D @types/mongodb
+
+#### Instalando a biblioteca celebrate (validação)
+
+yarn add celebrate
+
+yarn add -D @types/hapi__joi
