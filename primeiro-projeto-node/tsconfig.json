@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "exclude":[
+      "jest.config.js",
+      "prettier.config.js",
+      "node_modules",
+      "coverage",
+      "tmp"
+    ],
     "target": "es5",
     "module": "commonjs",
     "outDir": "./dist",
@@ -16,6 +23,6 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
   }
 }

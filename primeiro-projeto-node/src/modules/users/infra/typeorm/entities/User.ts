@@ -6,6 +6,8 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
+import { Exclude, Expose } from 'class-transformer';
+
 // KISS - Keep It Simple & Stupid
 
 @Entity('users')
@@ -20,9 +22,11 @@ class User {
   email: string;
 
   @Column('varchar')
+  @Exclude()
   password: string;
 
   @Column('varchar')
+  @Expose()
   avatar: string;
 
   @CreateDateColumn()
@@ -30,6 +34,13 @@ class User {
 
   @UpdateDateColumn()
   updated_at: Date;
+
+  @Expose({ name: 'avatar_url' })
+  getAvatarUrl(): string | null {
+    return this.avatar
+      ? `${process.env.APP_API_URL}/files/${this.avatar}`
+      : null;
+  }
 }
 
 export default User;

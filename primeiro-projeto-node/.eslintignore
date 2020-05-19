@@ -1,3 +1,4 @@
 /*.js
-nodue_modules
+node_modules
 dist
+coverage

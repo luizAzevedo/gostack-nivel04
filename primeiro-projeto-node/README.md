@@ -273,3 +273,7 @@ yarn add -D @types/hapi__joi
 #### Instalando a biblioteca .env
 
 yarn add dotenv
+
+#### Instalando a biblioteca class-transformer
+
+yarn add class-transformer
