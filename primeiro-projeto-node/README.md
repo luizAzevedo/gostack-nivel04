@@ -28,10 +28,11 @@
 - [multer](https://www.npmjs.com/package/multer)
 - [Cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
 - [Tsyringe](https://github.com/microsoft/tsyringe)
-- [Nodemailer](https://nodemailer.com/)
 - [Handlebars](https://handlebarsjs.com/)
 - [Ethereal](https://ethereal.email/)
 - [Celebrate](https://www.npmjs.com/package/celebrate/)
+- [Nodemailer](https://nodemailer.com/)
+- [Nodemailer/SES](https://nodemailer.com/transports/ses/)
 
 ---
 
@@ -277,3 +278,12 @@ yarn add dotenv
 #### Instalando a biblioteca class-transformer
 
 yarn add class-transformer
+
+#### Instalando a biblioteca aws-sdk para envio de email
+
+yarn add aws-sdk
+
+
+
+
+
