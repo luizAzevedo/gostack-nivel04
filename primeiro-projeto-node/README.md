@@ -13,6 +13,7 @@
 
 - [PostgreSQL](https://www.postgresql.org/)
 - [MongoDb](https://www.mongodb.com/)
+- [Redis](https://redis.io/)
 
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
@@ -287,4 +288,8 @@ yarn add aws-sdk
 
 yarn add mime
 
+#### Instalando a biblioteca do redis e o @types
 
+yarn add ioredis
+
+yarn add @types/ioredis
