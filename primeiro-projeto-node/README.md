@@ -293,3 +293,14 @@ yarn add mime
 yarn add ioredis
 
 yarn add @types/ioredis
+
+#### Instalando rate-limiter-flexible
+
+yarn add rate-limiter-flexible
+
+#### Instalando redis
+
+yarn add redis
+
+yarn add @types/redis
+
