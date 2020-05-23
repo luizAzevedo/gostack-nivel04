@@ -7,8 +7,8 @@ temp/
 coverage
 ormconfig.json
 
-tmp/uploads/*
-!tmp/uploads/.gitkeep
+tmp/*
+!tmp/.gitkeep
 
 /coverage.data
 /coverage/

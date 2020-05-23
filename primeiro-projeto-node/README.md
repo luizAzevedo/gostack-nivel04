@@ -283,7 +283,8 @@ yarn add class-transformer
 
 yarn add aws-sdk
 
+#### Instalando a biblioteca mime para ler o content do arquivo
 
-
+yarn add mime
 
 
