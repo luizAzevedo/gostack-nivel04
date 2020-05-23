@@ -42,7 +42,6 @@ class ListProviderAppointmentsService {
           day,
         },
       );
-      console.log('banco');
 
       await this.cacheProvider.save(cacheKey, appointments);
     }
